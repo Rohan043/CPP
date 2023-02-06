@@ -5,6 +5,7 @@ flag=0
 for i in range(len(arr)):
     if arr[i]==b:
         print("element found")
+        #print(i) *for index value
         flag=1
         break
     if flag==0:
